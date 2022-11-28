@@ -31,6 +31,14 @@ header{
     color: #e5e7eb;
 }
 
+.navbar-links a:link, a:visited{
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+
+
+
 .part1 h1{
     margin: 0;
     font-size: 48px;
@@ -65,6 +73,7 @@ button{
     border: 0;
     padding: 5px 20px 5px 20px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .right-part{
@@ -155,6 +164,7 @@ figcaption{
     border-color: white;
     border-radius: 6px;
     border-width: thin;
+    cursor: pointer;
     
 }
 
@@ -173,5 +183,8 @@ footer{
     background-color: #1F2937;
     color: #e5e7eb;
     text-align: center;
-    padding: 10px;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0px;
 }
