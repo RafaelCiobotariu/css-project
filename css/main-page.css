@@ -12,6 +12,7 @@ body{
 .logo{
     font-size: 24px;
     color: #f9faf8;
+    padding-top: 10px;
 }
 
 header{
@@ -19,6 +20,16 @@ header{
     justify-content: space-between;
     background-color: #1F2937;
     padding: 20px 150px 30px 150px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.link1{
+    padding-right: 20px;
+
 }
 
 .navbar-links{
