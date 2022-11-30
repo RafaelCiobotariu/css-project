@@ -65,7 +65,9 @@ header{
 }
 
 .left-part p{
-    padding: 0px 8px;
+    padding: 0px 8px 0px 100px;
+    text-align: left;
+    line-height: 1.5;
 }
 
 .right-part{    
